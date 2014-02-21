@@ -1,0 +1,51 @@
+<!DOCTYPE html>	
+
+<html lang="pt-br">
+<head> 
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet"  type="text/css" href="js/jquery.bxslider.css">
+	<title> site</title>
+</head>
+<body>
+	<header class="container">
+		<h1>
+			<img src="img/logo.png" alt="Frederyco - 3D Grafic Artist">
+		</h1>
+		<span class="telefone">Frederyco Martins<br>(11) 9-8183-1298</span>
+		<span class="email">fredy.martins@gmail.com</span>
+	</header>
+		<section class="slider container">
+			<ul class="bxslider">
+			  <li><img src="img/project01.jpg" /></li>
+			  <li><img src="img/project02.jpg" /></li>
+			  <li><img src="img/project01.jpg" /></li>
+			  <li><img src="img/project02.jpg" /></li>
+			</ul>
+		</section>
+		<footer class="container">
+			<ul class="social-media">
+				<li>
+					<a href="https://www.facebook.com/fredy.mmartins" title="Facebook"></a>
+				</li>
+				<li>
+					<a href="mailto:fredy.martins@gmail.com" title="Google Plus"></a>
+				</li>
+				<li>
+					<a href="http://www.linkedin.com/pub/frederyco-martins/23/927/251" title="Linkedin"></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/fredy_martins" title="Twitter"></a>
+				</li>
+			</ul>
+		</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.bxslider').bxSlider();
+			});
+		</script>
+</body>
+</html>
