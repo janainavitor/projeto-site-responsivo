@@ -1,137 +1,129 @@
-/*CSS GERAL===================================*/
+/* CSS GERAL */
 body {
 	margin: 0; 
 	padding: 0;
 	background: #b30101;
-	color: #FFFFFF;
+	color: #fff;
 	font-size: 16px;
 	font-family: Helvetica, Arial;
 }
+
 .container {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 960px;
 	min-width: 320px;
 }
-/*CSS HEADER===================================*/
-header{
+
+/* CSS HEADER */
+header {
 	position: relative;
 }
+
 header h1 {
-  width: 40px;
-  height: 40px;
+	width: 40px;
+	height: 40px;
 }
-h1 img{
+
+h1 img {
 	position: absolute;
 	top: 40px;
 	left: -10px;
 }
-.telefone {
+
+.phone {
 	position: absolute;
 	top: 40px;
 	left: 70px;
 	font: 16px/19px 'Arial';
-	color: #FFFFFF;
+	color: #fff;
 	transition: 0.5s;
-	-webkit-transition: 0.5s;	
+	-webkit-transition: 0.5s;
 }
+
 .email {
 	float: right;
 	margin-top: 15px;
 	margin-right: 10px;
 	font: 16px/19px 'Arial';
-	color: #FFFFFF;
+	color: #fff;
 	transition: 0.5s;
-	-webkit-transition: 0.5s;	
+	-webkit-transition: 0.5s;
 }
-/*CSS SLIDER===================================*/
-.slider{
+
+/* CSS SLIDER */
+.slider {
 	margin-top: 45px;
 }
-/*CSS ICONES MIDIAS SOCIAIS===================================*/
-.social-media li{
+
+/* CSS ICONES MIDIAS SOCIAIS */
+.social-media li {
 	display: inline-block;
 }
+
 .social-media li a {
 	width: 44px;
 	height: 50px;
-  display: block;
-  text-indent: -9999px;  
-  margin: 40px 0;
+	display: block;
+	text-indent: -9999px;
+	margin: 40px 0;
 }
-.social-media a[href*="facebook.com"]{
+
+.social-media a {
 	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
 	transition: 0.5s;
+}
+
+.social-media a.facebook {
 	background: url(../img/social_01.png) no-repeat;
 }
-.social-media a[href*="gmail.com"]{
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
+
+.social-media a.email {
 	background: url(../img/social_02.png) no-repeat;
 }
-.social-media a[href*="linkedin.com"]{
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
+
+.social-media a.linkedin {
 	background: url(../img/social_03.png) no-repeat;
 }
-.social-media a[href*="twitter.com"]{
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
+
+.social-media a.twitter {
 	background: url(../img/social_05.png) no-repeat;
 }
+
 @media (max-width: 768px) {
+
 	.social-media li a {
 		width: 36px;
-		height:45px;
-	  display: block;
-	  text-indent: -9999px;  
-	  margin: auto;
-	  text-align: center;
-	}
-	.social-media a[href*="facebook.com"]{
-		transition: 0.5s;
+		height: 45px;
+		margin: auto;
+		text-align: center;
 		transform: rotate(360deg);
-		-webkit-transition: 0.5s;
 		-webkit-transform: rotate(360deg);
+ }
+
+ .social-media a.facebook {
 		background: url(../img/social_01-2.png) no-repeat;
 	}
-	.social-media a[href*="gmail.com"]{
-		transition: 0.5s;
-		transform: rotate(360deg);
-		-webkit-transition: 0.5s;
-		-webkit-transform: rotate(360deg);
+
+	.social-media a.email {
 		background: url(../img/social_02-2.png) no-repeat;
 	}
-	.social-media a[href*="linkedin.com"]{
-		transition: 0.5s;
-		transform: rotate(360deg);
-		-webkit-transition: 0.5s;
-		-webkit-transform: rotate(360deg);
+
+	.social-media a.linkedin {
 		background: url(../img/social_03-2.png) no-repeat;
 	}
-	.social-media a[href*="twitter.com"]{
-		transition: 0.5s;
-		transform: rotate(360deg);
-		-webkit-transition: 0.5s;
-		-webkit-transform: rotate(360deg);
+
+	.social-media a.twitter {
 		background: url(../img/social_05-2.png) no-repeat;
 	}
-	.telefone {
-		position: absolute;
-		top: 40px;
+
+	.phone {
 		left: 26px;
-		font: 14px/17px 'Arial';
-		color: #FFFFFF;
-		transition: 0.5s;
-		-webkit-transition: 0.5s;	
+		font: 14px/17px;
 	}
+
 	.email {
-		float: right;
-		margin-top: 15px;
-		margin-right: 10px;
-		font: 14px/17px 'Arial';
-		color: #FFFFFF;
-		transition: 0.5s;
-		-webkit-transition: 0.5s;	
-}
+		font: 14px/17px;
+	}
 }
